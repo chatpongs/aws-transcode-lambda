@@ -20,7 +20,7 @@ exports.handler = function (event, context) {
 	
     var params = {
 		PipelineId: pipelineId,
-		OutputKeyPrefix: 'videos/',
+		OutputKeyPrefix: newKey + '/',
 		Input: {
 			Key: srcKey,
 			FrameRate: 'auto',
